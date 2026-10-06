@@ -13,8 +13,8 @@ Then go to the this build folder: **cd build**
 
 In the same build folder do: **cmake ..**
 
-Then do: **make -jN**    N = no. of cores of the CPU when you build the Geant4 while installing
+Then do: **make -jN** where N = no. of cores of the CPU when you build the Geant4 while installing
 
-Once Make is finished, do :**./sim**
+Once Make is finished, do : **./sim**
 
 The Geometry will be visible as we are running it in interactive mode. In the interactive terminal, run the command /run/beamOn [no. of events]  to run the simulation.
